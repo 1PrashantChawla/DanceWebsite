@@ -1,0 +1,21 @@
+firstly
+STEPS
+
+brackets[] are only use to highlight the command ,in actual they are not used while writing the command 
+
+1.open git bash
+2.then write the command [ git config --global user.name prashant ]
+3.then write the command [git config --global user.email "devchawla.dc@gmail.com"]
+4.ab hum [touch .gitignore] command likhe nge ,ye command tab likhtehai jab hume koi ese file na bhejni ho github 
+   ya koi file push na karni ho git pe kyuki ko banda git pe pull karega usko tym lagega fir agar file badi hogi to
+   yaha par hum node modules ko push nhi karenge .
+5.[git init ] ye ek new folder ban dega uss jagah par jha ka path hai or ek empty repository ban dega
+6.[git add .] ye command saari files ko git me daal dega ,staging area me ajyegi sarifile
+7.[git.commit -m "Initial commit"] we use this command next ,ye ek snapshot le leta hai ki ab tak kya kara hai
+8.[git status] ye hume status batat hai 
+9.[git remote add origin   (yaha path dalna hai....)] path jo githubse liya tha ssh vala
+10. ssh-keygen -t rsa -b 4096 -C "myemail@gmail.com"
+11. ab ek path milega key dalne ke baad [id_rsa.pub] is type ka isse jo keyy milegi usko vaha paste karna hai ssh key vali jagah me
+12. [git remote add origin <ssh url.git> ]
+13.git push origin master
+

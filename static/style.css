@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Rampart+One&family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Rampart+One&family=Signika+Negative:wght@300&family=Ubuntu:ital,wght@1,700&display=swap');
+
+
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* NAVBAR AREA */
+#navbar{
+    background-color: rgb(224, 55, 55);
+    padding: 13px 14px;
+    margin: auto;
+}
+
+#logo img{
+    height: 42px;   
+    position: absolute;
+    top: 4px ;
+    left: 19px ;
+    filter: invert(1);
+    
+}
+
+#logo img:hover{
+    
+       filter: grayscale(1);
+       
+
+
+}
+#brand{
+    margin: auto 46px auto 0px;
+    font-style: italic;
+font-weight: bold;
+color: white;
+
+
+    
+
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 28px;
+    margin: 4px;
+    font-size: 1.1rem ;
+
+
+}
+#navbar li a:hover{
+color: rgb(0, 0, 0);
+    font-weight: bold;
+
+
+}
+/* INTROAREA (1) */
+#introsection {
+    color: blanchedalmond;
+    text-shadow:2px 0px 2px rgb(255 255 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    
+    padding-bottom: 22px;
+    
+    
+    
+    background: center /cover no-repeat url('/static/dance+.jpg') ;
+    height: 300px;
+    background-color: rgb(190, 55, 55);
+    font-size: 2rem;
+    
+}
+#introsection div.small{
+
+    font-size: 1.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+/* MISSION SECTION  */
+#missionSection {
+    
+    background-color:rgb(255, 255, 255);
+text-align: center;
+height: 350;
+padding-top: 10px;
+
+
+
+}
+#missionSection h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+/* MISSION>CARDS  */
+.card{
+    padding-top: 10px;
+
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 31%;  
+    margin: 14px 15px;
+background-color: rgb(255, 206, 206);
+
+    height: 250px;
+
+     
+}
+.cardbox img{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    height: 122px;
+    margin: auto;
+
+}
+.cardcontent{
+    font-size: 1.2rem;
+    padding: 2px;
+    
+}
+
+/* SPONSORS SECTION  */
+#sponsorsSection{
+   
+
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+
+}
+#sponsorsSection h2{
+text-align: center;
+padding-top: 18px;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+.sponsors{
+    display: flex;
+    
+}
+.sponsorsImg img{
+    height: 163px;
+ 
+        padding: 25px;
+
+margin:auto 0px;
+
+
+
+}
+/* FOOTER section  */
+#footer {
+    color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    background-color: black;
+    font-size: 10px;
+
+}

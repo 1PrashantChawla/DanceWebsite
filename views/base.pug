@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title DD ACADEMY
+    block scripts 
+    block style 
+         style
+             include ../static/style.css
+  body
+    nav#navbar.top 
+    
+      ul 
+        div#logo 
+          img(src="/static/dancelogo.png")
+        div#brand 
+          | DDA 
+        
+
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Blogs]
+        li #[a(href="/contact") Contact]
+    block content
+    block footer 
+        footer#footer 
+            |   Copyrights 	&#9400; 2021 www.dda.com 

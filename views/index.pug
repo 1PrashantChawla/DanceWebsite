@@ -1,0 +1,71 @@
+doctype html
+html
+  head
+    title DD ACADEMY
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+    
+      ul 
+        div#logo 
+          img(src="/static/dancelogo.png")
+        div#brand 
+          | DDA 
+        
+
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Accounts]
+        li #[a(href="/") Contact]
+    section#introsection 
+      div Welcome To Dev Dance Academy
+      div.small EAT SLEEP ' D A N C E '   REPEAT
+
+    section#missionSection 
+      h1  OUR MISSION
+      div.card 
+        h3  Dance Perfection
+        div.cardbox#cardbox1
+          img(src="/static/d1.png", alt="Dance Like A Rockstar")
+        div.cardcontent 
+          p this is the inside
+      div.card 
+        h3  Dance The Way You Like
+        div.cardbox#cardbox2
+          img(src="/static/d2.png" , alt="Dance Like A Rockstar")
+        div.cardcontent 
+          p this is the inside
+      div.card
+        h3  Professionals Training
+        div.cardbox#cardbox3
+          img(src="/static/d3.png", alt="Dance Like A Rockstar")
+        div.cardcontent 
+          p this is the inside  
+
+    section#sponsorsSection
+      h2  OUR SPONSORS 
+      div.sponsors
+        div.sponsorsImg 
+          img(src="/static/applelogo.png", alt="sponsor1")
+        div.sponsorsImg 
+          img(src="/static/instagramlogo.png", alt="sponsor2")
+        div.sponsorsImg 
+          img(src="/static/dlogo.png", alt="sponsor3")
+        div.sponsorsImg 
+          img(src="/static/starpluslogo.png", alt="sponsor4")
+        div.sponsorsImg 
+          img(src="/static/microsoftlogo.png", alt="sponsor5")
+        div.sponsorsImg 
+          img(src="/static/zeelogo.png", alt="sponsor6")
+
+
+    footer#footer 
+      | Copyrights 	&#9400; 2021 www.dda.com
+      
+
+
+    
+
+    script
+      include ../static/index.js 
